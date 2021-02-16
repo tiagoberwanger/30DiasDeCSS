@@ -1,6 +1,6 @@
 # 30DiasDeCSS
 
-### DAY 1 - Social Newtwork dynamic icons
+### DAY 1 - Social Network dynamic icons
 ![day1](https://media.giphy.com/media/Ax16EDiWCIcHa69sUR/giphy.gif "Day 1")
 
 ### DAY 2 - Infitite square loading
