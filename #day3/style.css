@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(207, 207, 207);
+}
+
+#btn {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    border: 0;
+    padding: 15px 20px;
+    background-color: rgb(168, 255, 153);
+    box-shadow:0 10px 3px -5px #666;
+    border-radius: 5px;
+    transition: all 1s;
+    opacity: 0.7;
+    cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Deal_With_It_Cursor.png)
+}
+
+#div-btn:hover button{
+    transform:translatey(-5px);
+    box-shadow:0 30px 10px -10px #666;
+}
+
+#btn:hover {
+    animation: bounce 0.8s infinite alternate;
+    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Deal_With_It_Pointer.png), auto;
+}
+
+@keyframes bounce {
+    to { 
+        transform: scale(0.9); 
+        box-shadow:0 15px 5px -5px #666;
+        opacity: 1;
+        background-color: rgb(142, 255, 122);
+    }
+    
+  }
